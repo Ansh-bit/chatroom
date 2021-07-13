@@ -1,0 +1,98 @@
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+
+}
+
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+.chatpage{
+    text-align: center;
+}
+#usermsg{
+        background-color: rgb(211, 228, 228);
+        display: inline-block;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        height: 35px;
+        width: 100%;
+        width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+        
+}
+#usermsg:hover{
+   border-color: rgb(115, 235, 115);
+}
+#submitmsg{
+    text-align: center;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    
+}
+#submitmsg:hover{
+   background-color: #45a049;
+}
+.scrolldiv{
+  height:350px;
+  overflow-y: scroll;
+  /* border: 2px solid #5a5555; */
+  /* background-color: #ddd2d2; */
+  /* border-radius: 5px; */
+}
+/* .msgbox{
+  border: 2px solid #c5c4c4;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+} */
